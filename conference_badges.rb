@@ -10,7 +10,7 @@ end
       attendees << badge_maker(speaker)
     end
     return attendees
-    
+    binding.pry 
   end 
   
   def assign_rooms(speakers) 
