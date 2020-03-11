@@ -12,18 +12,22 @@ end
     return attendees
   end 
   
-  def assign_rooms(speaker, room) 
-    
-    return "Hello, #{name}! You'll be assigned to room #{num}!"
+  def assign_rooms(speakers) 
+    room_array = []
+    speakers.each_with_index do |name, index| 
+      room = index + 1 
+      room_array << "Hello, #{name}! You'll be assigned to room #{room}!"
   end 
+  return room_array
+end 
   
-  def printer(input)
-    batch_badge_creator(input).each do |badge|
-      puts badge 
-    end 
-    assign_rooms(input).each do |room|
-      puts room 
-    end 
-  end 
+  # def printer(input)
+  #   batch_badge_creator(input).each do |badge|
+  #     puts badge 
+  #   end 
+  #   assign_rooms(input).each do |room|
+  #     puts room 
+  #   end 
+  # end 
     
   
