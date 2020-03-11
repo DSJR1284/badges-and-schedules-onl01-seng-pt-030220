@@ -13,7 +13,7 @@ end
     binding.pry 
   end
   
-  batch_badge_creator 
+  
   
   def assign_rooms(speakers) 
     room_array = []
