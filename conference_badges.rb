@@ -1,4 +1,4 @@
-requrie 'pry'
+require 'pry'
 
 def badge_maker(name)
   return "Hello, my name is #{name}."
@@ -11,7 +11,7 @@ end
     end
     return attendees
   end 
-  
+  binding.pry 
   def assign_rooms(speakers) 
     room_array = []
     speakers.each_with_index do |name, index| 
