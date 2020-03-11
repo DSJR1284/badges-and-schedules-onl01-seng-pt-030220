@@ -10,8 +10,9 @@ end
       attendees << badge_maker(speaker)
     end
     return attendees
+    
   end 
-  binding.pry 
+  
   def assign_rooms(speakers) 
     room_array = []
     speakers.each_with_index do |name, index| 
