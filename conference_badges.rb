@@ -11,7 +11,9 @@ end
     end
     return attendees
     binding.pry 
-  end 
+  end
+  
+  batch_badge_creator 
   
   def assign_rooms(speakers) 
     room_array = []
