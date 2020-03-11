@@ -21,13 +21,13 @@ end
   return room_array
 end 
   
-  # def printer(input)
-  #   batch_badge_creator(input).each do |badge|
-  #     puts badge 
-  #   end 
-  #   assign_rooms(input).each do |room|
-  #     puts room 
-  #   end 
-  # end 
+  def printer(input)
+    batch_badge_creator(input).each do |badge|
+      puts badge 
+    end 
+    assign_rooms(input).each do |room|
+      puts room 
+    end 
+  end 
     
   
