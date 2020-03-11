@@ -13,7 +13,7 @@ end
   end 
   
   def assign_rooms(speaker, room) 
-    room_number = 1
+    
     return "Hello, #{name}! You'll be assigned to room #{num}!"
   end 
   
