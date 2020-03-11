@@ -4,10 +4,10 @@ def badge_maker(speaker=name)
   return "Hello, my name is #{name}."
 end
   
-  def batch_badge_creator(speaker)
-    new_speaker=[]
-    speaker each.do |speaker|
-      new_speaker<< speaker
+  def batch_badge_creator(names)
+    badge_messager=[]
+    names each.do |speaker|
+      badge_messager<< speaker
         end 
   
   def assign_rooms(speaker) 
