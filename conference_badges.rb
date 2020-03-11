@@ -5,7 +5,7 @@ def badge_maker(speaker=name)
 end
   
   def batch_badge_creator(names)
-    badge_messager=[]
+    attendess=[]
     names each.do |speaker|
       badge_messager<< speaker
         end 
